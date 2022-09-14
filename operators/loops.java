@@ -1,5 +1,8 @@
 class loops {
 	public static void main(String[] args) {
+// 		for (int x = 0; x < 10; a ++) {
+// 			System.out.println("Hello");
+// 		}
 		// int age[] = {12, 56, 89, 45, 15, 12};
 		// int n = 0;
 		// while (n < 6) {

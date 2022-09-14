@@ -1,4 +1,4 @@
-class staticAccess {
+class statics {
 	public static void main(String[] args) {
 		Vox.intX = 24;
 		Vox.print();

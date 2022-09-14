@@ -1,6 +1,6 @@
 // 2022_08_06 Java Class 16
 
-class interfaces {
+class interfacesTwo {
 	public static void main(String[] args) {
 		subClass subClass = new subClass();
 		subClass.print();

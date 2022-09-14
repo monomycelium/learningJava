@@ -30,15 +30,39 @@ class exceptions {
 
 			// cannot go beyond index 4:
 
-		int arrayX[] = {11, 22, 33, 44, 55};
-		try {
-			for (int intX = 0; intX < 10; intX ++) {
-				System.out.println(arrayX[intX]);
-			}
-		} catch(IndexOutOfBoundsException e) {
-			System.out.println("Index out of range.");
-		}
+// 		int arrayX[] = {11, 22, 33, 44, 55};
+// 		try {
+// 			for (int intX = 0; intX < 10; intX ++) {
+// 				System.out.println(arrayX[intX]);
+// 			}
+// 		} catch(IndexOutOfBoundsException e) {
+// 			System.out.println("Index out of range.");
+// 		}
 
-		System.out.println("[Process completed]");
-	}
+// 		nested exceptions
+
+		int a = 20, b = 10;
+		int arrayX[] = {11, 22, 33, 44, 55};
+        try {
+            
+            System.out.println(arrayX[2]);
+            System.out.println(a / b);
+
+		} catch(ArithmeticException e) {
+
+		 	System.out.println("numbers cannot be divided by zero, okay?");
+
+		} catch(IndexOutOfBoundsException e) {
+
+			System.out.println("index out of range.");
+
+		} finally {
+
+            System.out.println("this is the final block.");
+
+        }
+
+        System.out.println("[process completed]");
+
+    }
 }

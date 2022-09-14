@@ -19,7 +19,7 @@ final class superClass {
 	}
 
 	void print() {
-		System.out.println("Super Classes rule!");
+		System.out.println("super classes rule!");
 	}
 }
 
@@ -40,6 +40,6 @@ class subClass extends superClass {
 	}
 
 	void print() {
-		System.out.println("Hello World");
+		System.out.println("hello world!");
 	}
 }

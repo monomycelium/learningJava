@@ -1,4 +1,4 @@
-class ifSelection {
+class ifs {
 	public static void main(String args[]) {
 
 		// Conditions
